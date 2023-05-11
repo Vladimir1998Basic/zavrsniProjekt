@@ -1,0 +1,75 @@
+.InputNewAnimal {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    border: 4px solid rgb(128, 178, 244);
+    background-color: white;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.button { 
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  #00ff00;
+  }
+  
+
+.textarea {
+    padding: 12px;
+    width: 40%;
+}
+
+.type {
+    margin-top: 8px; 
+}
+
+.years {
+    margin-top: 8px;
+}
+
+.status {
+    margin-top: 8px;
+}
+
+.remark {
+    margin-top: 8px;
+}
+
+#name {
+    margin-left: 4px;
+}
+
+#years {
+    margin-left: 4px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type="checkbox"]:checked + label::before {
+        content: "";
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border: 2px solid #00ff00;
+        margin-right: 5px;
+        transform: scale(0.8);
+        width: 16px;
+      }
+      
+      input[type="checkbox"]:checked + label {
+        color: #00ff00;
+      }
+
+      
+      
+
+      
+      

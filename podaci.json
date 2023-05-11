@@ -1,0 +1,47 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "name": "Hugo",
+      "type": "Pas",
+      "adopted": false
+    },
+    {
+      "id": 2,
+      "name": "Oscar",
+      "type": "Pas",
+      "adopted": false
+    },
+    {
+      "id": 3,
+      "name": "Odie",
+      "type": "Mačka",
+      "adopted": false
+    },
+    {
+      "id": 4,
+      "name": "Pepe",
+      "type": "Papiga",
+      "adopted": true
+    },
+    {
+      "id": 5,
+      "name": "Brzi",
+      "type": "Kornjača",
+      "adopted": true
+    },
+    {
+      "id": 6,
+      "name": "Herkules",
+      "type": "Konj",
+      "adopted": true
+    },
+    {
+      "id": 7,
+      "name": "Ježurko",
+      "type": "Jež",
+      "adopted": true
+    }
+  ],
+  "types": ["Pas", "Mačka", "Papiga", "Kornjača", "Konj", "Jež"]
+}

@@ -1,0 +1,16 @@
+.location-container {
+    width: 100%;
+    height: 100%;
+    position: relative; 
+  }  
+
+.location-map {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  iframe.Location {
+    height: 100%;
+  }
+  

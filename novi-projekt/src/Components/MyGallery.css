@@ -1,0 +1,37 @@
+.MyGallery {
+    position: relative;
+    height: 500px; /* Postavi fiksnu visinu galerije */
+  }
+  
+  .MyGallery img {
+    display: block;
+    margin: 0 auto;
+    height: 100%; /* Popuni visinu okvira slike */
+    object-fit: contain; /* Postavi sliku unutar okvira */
+  }
+  
+  .MyGallery button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    border: none;
+    color: blue;
+    font-size: 1rem; /* Smanji veličinu fonta */
+    cursor: pointer;
+    transition: color 0.2s;
+    z-index: 1; /* Postavi botune ispred slika */
+  }
+  
+  .MyGallery button:hover {
+    color: navy;
+  }
+  
+  .MyGallery button:first-of-type {
+    left: 0;
+  }
+  
+  .MyGallery button:last-of-type {
+    right: 0;
+  }
+

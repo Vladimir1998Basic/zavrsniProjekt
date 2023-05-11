@@ -1,0 +1,86 @@
+.ContactForm label {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .ContactForm input,
+  .ContactForm textarea {
+    width: 75%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .ContactForm input:focus,
+  .ContactForm textarea:focus {
+    outline: none;
+    border-color: #6ea1ff;
+  }
+ 
+  .ContactForm button {
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color:  #2e6cff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .ContactForm button:hover {
+    background-color: #6ea1ff;
+  }
+  
+.ContactForm {
+    text-align: start;
+    border: 2px solid #985252;
+    border-radius: 4px;
+    padding: 8px; 
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.ContactForm textarea {
+    height: 100px;
+    width: 500px;
+  }
+
+  label[for="message"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  textarea[name="message"] {
+    height: 120px;
+    resize: vertical;
+  }
+  
+.ContactForm input[type="email"] {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    width: 90%;
+    font-size: 16px;
+  }
+
+.error {
+    font-size: 12px;
+    color: red;
+    margin-top: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+} 
+
+
+  
